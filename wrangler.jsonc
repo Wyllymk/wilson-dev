@@ -5,10 +5,12 @@
   "observability": {
     "enabled": true
   },
-  // Assets must come from dist/ (site files only), NEVER the repo root:
-  // node_modules/workerd is 128 MiB and exceeds Cloudflare's 25 MiB
-  // per-asset limit. `npm run build` assembles dist/ via scripts/package-dist.mjs.
+  // The deploy pipeline runs `npx wrangler deploy` with NO build step, so the
+  // assets directory must exist on a fresh clone. The site lives at the repo
+  // root; .assetsignore excludes node_modules (workerd alone is 128 MiB and
+  // exceeds Cloudflare's 25 MiB per-asset limit) and other dev-only files.
+  // For a clean standalone bundle (e.g. Pages), `npm run build` makes dist/.
   "assets": {
-    "directory": "dist"
+    "directory": "."
   }
 }

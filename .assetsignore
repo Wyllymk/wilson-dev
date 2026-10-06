@@ -1,0 +1,16 @@
+# Files that must never be uploaded as site assets.
+# Format is .gitignore (see: https://developers.cloudflare.com/workers/static-assets/binding/)
+#
+# The site itself lives at the repo root (index.html, style.css, assets/, ...),
+# so `wrangler deploy` can run on a fresh clone with NO build step — only the
+# dev/infra files below are excluded. Critically this keeps node_modules out:
+# workerd alone is 128 MiB and exceeds Cloudflare's 25 MiB per-asset limit.
+node_modules
+.freebuff
+.wrangler
+dist
+src
+scripts
+.git
+*.log
+.DS_Store
