@@ -1,0 +1,33 @@
+{
+  "name": "wilsondevops-portfolio",
+  "version": "1.0.0",
+  "description": "Wilson Mbuthia — WordPress Architect & AI Systems Engineer. Static portfolio at wilsondevops.com, deployed on Cloudflare Pages.",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:css",
+    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./style.css --minify",
+    "watch:css": "npx @tailwindcss/cli -i ./src/input.css -o ./style.css --watch",
+    "serve": "npx serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wyllymk/wildon-dev.git"
+  },
+  "keywords": [
+    "portfolio",
+    "wordpress",
+    "woocommerce",
+    "ai",
+    "cloudflare-pages"
+  ],
+  "author": "Wilson Mbuthia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wyllymk/wildon-dev/issues"
+  },
+  "homepage": "https://wilsondevops.com",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}

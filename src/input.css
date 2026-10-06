@@ -1,0 +1,22 @@
+@import "./fonts.css";
+@import "tailwindcss";
+
+@theme {
+  --color-void: rgb(var(--c-void));
+  --color-surface: rgb(var(--c-surface));
+  --color-surface2: rgb(var(--c-surface2));
+  --color-ink: rgb(var(--c-ink));
+  --color-muted: rgb(var(--c-muted));
+  --color-dim: rgb(var(--c-dim));
+  --color-line: rgb(var(--c-line));
+  --color-accent: rgb(var(--c-accent));
+  --color-accent2: rgb(var(--c-accent2));
+  --color-signal: rgb(var(--c-signal));
+
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-hero: "Clash Display", sans-serif;
+
+  --width-8xl: 90rem;
+}

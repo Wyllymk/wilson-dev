@@ -1,0 +1,6 @@
+# Cloudflare Pages redirects — https://developers.cloudflare.com/pages/platform/redirects/
+#
+# NOTE: www → apex must be configured in the Cloudflare dashboard (DNS + "Bulk Redirect"
+# or a Redirect Rule), because _redirects only matches paths, not hostnames.
+# Recommended: add www.wilsondevops.com as a redirect to https://wilsondevops.com
+# so both hostnames resolve to one canonical URL (canonical tag is already set).

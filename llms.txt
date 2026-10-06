@@ -1,0 +1,31 @@
+# Wilson Devops — Wilson Mbuthia
+
+> Wilson Mbuthia is a full-stack WordPress engineer and AI systems engineer based in Nairobi, Kenya. He engineers high-performance WordPress systems, custom WooCommerce revenue platforms, and AI-powered web applications for clients across Africa and globally. He is available for freelance projects, retainers, and collaborations.
+
+Wilson is available for new projects. Contact: info@wilsondevops.com (email), https://wa.me/+254703639230 (WhatsApp), https://www.linkedin.com/in/wilson-mbuthia-k/ (LinkedIn), https://github.com/Wyllymk (GitHub).
+
+## Services
+
+- [Custom WordPress development](https://wilsondevops.com/#services): From-scratch custom themes, hybrid block architecture, bespoke plugins using OOP PHP, ACF Pro.
+- [WooCommerce revenue systems](https://wilsondevops.com/#services): Custom checkout flows, in-checkout product switching, subscription engines, affiliate tracking, payment gateways.
+- [AI integration](https://wilsondevops.com/#ai): Claude API and GPT integrations, AI chatbots, lead qualification agents, semantic search, content automation, AI scoring engines — built WordPress-native, no SaaS lock-in.
+- [Full-stack applications](https://wilsondevops.com/#services): React frontends, Node.js backends, REST API architecture, headless WordPress.
+- [Performance & security engineering](https://wilsondevops.com/#services): Core Web Vitals, caching, AVIF image pipelines, database profiling, hardening.
+
+## Selected work
+
+- [The Funded Way](https://wilsondevops.com/#work): Prop trading platform, real-time challenge tracking, custom WooCommerce checkout with in-checkout product switching, affiliate tracking for challenges up to $100K.
+- [AI Prop](https://wilsondevops.com/#work): AI-powered prop trading with machine intelligence for instant challenge evaluations.
+- [PremiaBet](https://wilsondevops.com/#work): Sports betting prop firm with GSAP animations and full bilingual support.
+- [Visitor Management System](https://wilsondevops.com/#work): Enterprise VMS with real-time check-ins, QR scanning, digital visitor badges, security reporting.
+- [Torus Africa](https://wilsondevops.com/#work): Web design agency on a fully custom WordPress theme.
+- [Nezer Motors](https://wilsondevops.com/#work): Automotive dealership with vehicle listings and lead inquiry system.
+
+## Facts
+
+- Location: Nairobi, Kenya (EAT, UTC+3); works with clients worldwide.
+- Experience: 6+ years engineering; 10+ projects shipped.
+- Stack: PHP/OOP, WordPress Core, WooCommerce, React, TypeScript, Node.js, MySQL, REST API, ACF Pro, AWS, Claude API, GPT.
+- Results cited: AI scoring reduced review time by 80%; checkout systems handled $100K funded challenges; 40% cart abandonment reduction; 500+ users in first month for a launched platform.
+- Engagement: fixed scope, timeline, and price quoted per project after a short discovery call; typical builds take 2–6 weeks; post-launch maintenance retainers available.
+- Site FAQ: https://wilsondevops.com/#faq
