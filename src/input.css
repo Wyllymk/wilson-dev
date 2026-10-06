@@ -18,5 +18,6 @@
   --font-mono: "JetBrains Mono", monospace;
   --font-hero: "Clash Display", sans-serif;
 
-  --width-8xl: 90rem;
+  /* Tailwind v4: max-w-* utilities resolve from the --container-* namespace */
+  --container-8xl: 90rem;
 }
