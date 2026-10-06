@@ -4,10 +4,13 @@
   "description": "Wilson Mbuthia — WordPress Architect & AI Systems Engineer. Static portfolio at wilsondevops.com, deployed on Cloudflare Pages.",
   "private": true,
   "scripts": {
-    "build": "npm run build:css",
+    "build": "npm run build:css && node scripts/package-dist.mjs",
     "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./style.css --minify",
     "watch:css": "npx @tailwindcss/cli -i ./src/input.css -o ./style.css --watch",
-    "serve": "npx serve ."
+    "serve": "npx serve .",
+    "predeploy": "npm run build",
+    "deploy": "wrangler deploy",
+    "preview": "npm run build && wrangler dev"
   },
   "repository": {
     "type": "git",

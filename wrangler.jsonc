@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "wilson-dev",
+  "compatibility_date": "2026-10-01",
+  "observability": {
+    "enabled": true
+  },
+  // Assets must come from dist/ (site files only), NEVER the repo root:
+  // node_modules/workerd is 128 MiB and exceeds Cloudflare's 25 MiB
+  // per-asset limit. `npm run build` assembles dist/ via scripts/package-dist.mjs.
+  "assets": {
+    "directory": "dist"
+  }
+}
